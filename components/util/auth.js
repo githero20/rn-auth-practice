@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_KEY = "AIzaSyD8_3O8irNCmeBEVtTOZ5NPyvxK94nHcic";
+const API_KEY = process.env.API_KEY;
 // API key is gotten from Web API key on fire base project settings
 
 const authenticate = async (mode, email, password) => {
